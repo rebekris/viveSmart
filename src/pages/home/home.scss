@@ -1,0 +1,16 @@
+page-home {
+	.user{
+		margin-bottom: 25px;
+	}
+	.input{
+		background: none;
+		color: white;
+		.item-inner{
+			border-bottom:0 !important;
+			background: rgba(255,255,255, 0.4);
+			padding-left: 0px !important;
+			&::-webkit-input-placeholder {color:    #909;}
+			&::placeholder {color:    #909;}
+		}
+	}
+}

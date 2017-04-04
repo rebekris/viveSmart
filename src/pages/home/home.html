@@ -1,0 +1,46 @@
+
+<ion-content padding="true" style="background: url(assets/img/MzC4faYeQr2AnaRD3qbY_fondo.jpg) no-repeat center;background-size:cover;" class="manual-ios-statusbar-padding">
+    <div>
+
+      <img src="assets/img/xZ4nQvLCQNmPzZjkaO0O_logo-splash.png" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <form id="login-form2" class="list">
+
+      <div class="spacer" style="width: 300px; height: 20px;">
+        <ion-icon ios="logo-apple" md="logo-android"></ion-icon>
+
+
+      </div>
+
+      <div class="">
+        <ion-icon color="vibrant" name="contact" role="img" class="icon icon-ios icon-ios-vibrant ion-ios-contact" aria-label="contact" ng-reflect-color="vibrant" ng-reflect-name="happy" style="color:white;"></ion-icon> 
+        <ion-item class="user input" style="padding-left: 0;">
+          <ion-input placeholder="Usuario" type="text" clearInput></ion-input>
+        </ion-item> 
+        
+      </div>
+
+
+      <div class="space">
+        
+      </div>
+
+
+      <ion-item class="input" style="padding-left: 0;">
+        <ion-input type="password" placeholder="Contraseña" ></ion-input>
+      </ion-item>
+      <div class="spacer" style="width: 300px; height: 16px;"></div>
+
+      <button id="btn-login" style="color:#00AEEF;border-radius:10px 10px 10px 10px; height: 40px; width: 100%; margin-bottom: 25px" class=""> Ingresar</button>
+      <div id="login-button-bar1" class="button-bar">
+        <button id="login-button8" style="font-weight:300;color:#FFFFFF;border-radius:10px 10px 10px 10px;" class="button button-light  button-block button-outline brn_deg">Nuevo usuario</button>
+        <button id="login-button9" style="font-weight:300;color:#FFFFFF;border-radius:10px 10px 10px 10px;" class="button button-light  button-block button-outline">¿Olvidaste tu contraseña?</button>
+      </div>
+    </form>
+</ion-content>
+<ion-tabs>
+  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>
+  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>
+</ion-tabs>
+
