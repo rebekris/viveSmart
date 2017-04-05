@@ -1,3 +1,4 @@
+@import url("https://www.fontify.me/wf/64052f5d8376391d02aff7dfce981954");
 .ion-ios-add:before {
   content: "\f102";
 }
@@ -24517,29 +24518,144 @@ ion-navbar.toolbar {
   }
 }
 
-page-home .user {
-  margin-bottom: 25px;
+html, body {
+  font-family: font129281;
 }
 
-page-home .input {
-  background: none;
+.my-input {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 5px 2px;
+  font-size: 20px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.btn-login {
+  font-size: 30px;
+  width: 100%;
+  background: white;
+  color: #00aeef;
+}
+
+.btn-group {
+  width: 48%;
+  display: inline-block;
+  padding: 5px 10px;
+  float: left;
   color: white;
 }
 
-page-home .input .item-inner {
+.btn-omega {
+  float: right;
+}
+
+page-home {
+  font-family: font129281;
+}
+
+page-home .text-input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: white;
+}
+
+page-home .text-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+}
+
+page-home .text-input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: white;
+}
+
+page-home .text-input:-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+}
+
+page-home .my-input {
+  margin-bottom: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+page-home .my-input .icon {
+  color: white;
+  width: 10%;
+  display: inline;
+  font-size: 30px;
+  border-right: 1px solid white;
+  padding: 10px 15px;
+  text-align: center;
+  line-height: 45px;
+}
+
+page-home .my-input .user {
+  background: none;
+  color: white;
+  width: 80%;
+  display: inline;
+  float: right;
+}
+
+page-home .my-input .item-md.item-block .item-inner {
   border-bottom: 0 !important;
-  background: rgba(255, 255, 255, 0.4);
-  padding-left: 0px !important;
 }
 
-page-home .input .item-inner::-webkit-input-placeholder {
-  color: #909;
+page-registro {
+  font-family: font129281;
 }
 
-page-home .input .item-inner:-ms-input-placeholder {
-  color: #909;
+page-registro .text-input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: white;
 }
 
-page-home .input .item-inner::placeholder {
-  color: #909;
+page-registro .text-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+}
+
+page-registro .text-input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: white;
+}
+
+page-registro .text-input:-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+}
+
+page-registro .list-md .item-block .item-inner, page-registro .list-md .item-input:last-child {
+  border-bottom: 0 !important;
+}
+
+page-registro h1 {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+page-registro .my-input {
+  margin-bottom: 20px;
+}
+
+page-registro .btn-back {
+  color: white;
+  width: 32%;
+}
+
+page-registro .btn-next {
+  width: 65%;
+  display: inline-block;
+  float: right;
+}
+
+page-registro .btn {
+  font-size: 23px;
 }
